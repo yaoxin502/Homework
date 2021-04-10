@@ -11,13 +11,13 @@ dict1 = {}
 f = open('data.txt','r',encoding='utf-8')
 content = f.readlines()
 f.close()
+print(content)
 
 for i in content:
     i = i.strip('\n')
     list1 = i.split('，')
     for j in list1:
         list2 = j.split(':')
-        # print(list2)
         dict1[list2[0]] = int(list2[1])
 for key,value in dict1.items():
     if value > 18:

@@ -26,13 +26,13 @@
 #     if value > 18:
 #         print(f'{key}')
 
-str1 = 'welocme to super&Test'
-list3 = str1.split(' ')
-list4 = []
-for i in list3:
-    str2 = i[::-1]
-    list4.append(str2)
-print(' '.join(list4))
+# str1 = 'welocme to super&Test'
+# list3 = str1.split(' ')
+# list4 = []
+# for i in list3:
+#     str2 = i[::-1]
+#     list4.append(str2)
+# print(' '.join(list4))
 
 # str1 = 'welocme to super&Test'
 # list1 = str1.split(' ')
@@ -47,6 +47,9 @@ print(' '.join(list4))
 #         list3[len(list3)-n-1] = tmp
 #         n+=1
 #     print(''.join(list3),end=' ')
+
+
+
 
 
 

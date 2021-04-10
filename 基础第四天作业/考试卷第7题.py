@@ -14,3 +14,4 @@ for i in list1:
         list3[len(list3)-n-1] = tmp
         n+=1
     print(''.join(list3),end=' ')
+
